@@ -1,0 +1,41 @@
+#container{
+    background-color: hsl(123, 100%, 90%);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+}
+h2{
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-style: italic;
+}
+button{
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(216, 100%, 50%);
+    color: azure;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(216, 100%, 60%);
+}
+button:active{
+    background-color: hsl(216, 100%, 70%);
+}
+#length{
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 2px;
+}
+label{
+    padding: 5px 5px;
+}
+#outputPassword{
+    font-size: 1.8rem;
+}
