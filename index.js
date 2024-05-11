@@ -25,8 +25,10 @@ function startFunction(){
     }
     else{
         for(let i = 0; i < length; i++){
-            password += allowedChars.charAt(Math.floor(Math.random() * allowedChars.length))
+            const randomIndex = Math.floor(Math.random() * allowedChars.length)
+            password += allowedChars[randomIndex]
         }
         outputPassword.innerHTML = `Your Password is: ${password}`
+        console.log(password)
     }
 }
